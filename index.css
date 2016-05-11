@@ -456,6 +456,13 @@ background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, F
 }
 #Skills h3{
 	color: white;
-.hrWidth{
+}
+#projects hr{
 	width: 60%;
 }
+
+#about hr{
+	width: 60%;
+}
+
+

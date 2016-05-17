@@ -1,0 +1,103 @@
+@media only screen and (max-device-width: 480px) {
+
+		
+		#home {
+			background-image:none;
+			background: #c2e59c; /* fallback for old browsers */
+			background: -webkit-linear-gradient(to left, #c2e59c , #64b3f4); /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to left, #c2e59c , #64b3f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		}
+
+		#topRow h1{
+		font-size:1.2em;
+		}
+		
+		#about {
+			float: center;
+			width: 100%;
+			background-color: #222;
+			font-family: Georgia, Times, serif;
+	       	font-size: 1em;
+	   		color: white;
+	   		text-align: center;
+
+	   	}
+	   	#about p {
+	   		display: inline-block;
+	   		padding: 0;
+	   		width: 200px;
+	   	}
+	   	blockquote {
+	   		font-size: 1em;
+	   		width: 200px;
+	   		display: inline-block;
+	   		padding: 0;
+	   	}
+	   	.hrWidth{
+			width: 60%;
+		}
+
+		.containerWidth{ 
+       
+    		max-width: 100%; 
+    		padding: 0;
+	
+		}
+
+		#projects h1{
+			font-size: 1.5em;
+			font-weight: bold;
+		
+		}
+
+		#projectImage{
+			  width: 200px;
+			  height: 150px;
+			  margin: 0 auto;
+
+}
+		#projectImgWrapper .box{
+			width: 200px;
+			height: 150px;
+		}
+		#projectImgWrapper {
+	  font: 8pt normal Arial, sans-serif;
+	  height: auto;
+
+
+}
+#projectImgWrapper br{
+	display: none;
+}
+		#projectImgWrapper p{
+		font-style: italic;
+		font-size: 0.9em;
+		color: white;
+		font-family: Georgia, Arial, Times;
+	}
+	#projectImgWrapper h3{
+		font-weight: bold;
+		font-family: Georgia, Arial, Times;
+		font-size: 1em;
+
+
+	}
+
+
+		#projectImgWrapper .box .fade-caption, #projectImgWrapper .box .scale-caption{
+			width: 200px;
+			  height: 150px;
+
+		}
+
+		#projectImgWrapper .box:focus .fade-caption {
+    opacity: 1;
+
+} 
+
+	}
+	.listGroupStyle {
+		font-size: 1em;
+		width: 200px;
+		margin-left: 60px;
+	}

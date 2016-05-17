@@ -41,6 +41,7 @@
 
 	}
 
+
 	#topRow{
 		margin-top:100px;
 		text-align:center;
@@ -49,7 +50,7 @@
 		
 	}
 	#topRow h1{
-		font-size:400%;
+		font-size:300%;
 		}
 	
 	.margintop{
@@ -68,71 +69,7 @@
 		width:100%;
 	}
 	
- 	/*#projects img{
-	width:300px;
-	height:200px;
-	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-    border-bottom:2px solid #fff;
-    border-right:2px solid #fff;
-    margin:5% auto 0 auto; 
-    border-radius:5px;
-	overflow:hidden;
-	
-	}
-	figure { 
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin: auto auto;
-	}
-	*/
-	/*#gameBox{
-      width:150px;
-      height:150px;
-      background-color:red;
-      display:none;
-      border:1px solid gray;
-      position:relative;
-      
-    
-    }
-    #gameContainer{
-      width:900px;
-      margin:0 auto;
-      height:480px;
-      border:2px groove purple;
-      background-color: white;
-      background-size:1100px 480px;
-    }
-    #gameWidth{
-      width:800px;
-      height:25px;
-      margin:0 auto;
-      background-color:yellow;
-      
-      
-      }
-      
-    #gameList ul {
-      float:left;
-      
-    
-    }
-    
-    #gameList li {
-      float:left;
-      list-style:none;      
-      font-size:15px;
-      font-weight:bold;
-      padding-left:100px;
-      position:relative;
-      top:-10px;
-      
-      
-      
-    }
-*/
-
+ 	
 	#about img{
 		
 	margin-top:20px;
@@ -191,14 +128,14 @@
 
 
 	#projectImgWrapper {
-  font: 10pt normal Arial, sans-serif;
-  height: auto;
-  margin: 10px auto 10px auto;
-  text-align: center;
-  padding-left: 25%;
+	  font: 10pt normal Arial, sans-serif;
+	  height: auto;
+	  margin: 10px auto 10px auto;
+	  text-align: center;
+	  padding-left: 25%;
 
 }
-#projectImgWrapper .box {
+	#projectImgWrapper .box {
     border: 3px solid #fff;
     border-radius: 10px;
     cursor: pointer;
@@ -461,8 +398,6 @@ background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, F
 	width: 60%;
 }
 
-#about hr{
-	width: 60%;
-}
+
 
 

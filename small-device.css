@@ -20,6 +20,7 @@
 	       	font-size: 1em;
 	   		color: white;
 	   		text-align: center;
+	   		
 
 	   	}
 	   	#about p {
@@ -32,6 +33,7 @@
 	   		width: 200px;
 	   		display: inline-block;
 	   		padding: 0;
+
 	   	}
 	   	.hrWidth{
 			width: 60%;
@@ -63,6 +65,8 @@
 		#projectImgWrapper {
 	  font: 8pt normal Arial, sans-serif;
 	  height: auto;
+	  padding: 12%;
+
 
 
 }
@@ -84,20 +88,21 @@
 	}
 
 
-		#projectImgWrapper .box .fade-caption, #projectImgWrapper .box .scale-caption{
-			width: 200px;
-			  height: 150px;
+	#projectImgWrapper .box .fade-caption, #projectImgWrapper .box .scale-caption{
+		width: 200px;
+		height: 150px;
 
 		}
 
-		#projectImgWrapper .box:focus .fade-caption {
-    opacity: 1;
+	#projectImgWrapper .box:focus .fade-caption {
+   		opacity: 1;
 
-} 
+		} 
 
-	}
+	
 	.listGroupStyle {
 		font-size: 1em;
 		width: 200px;
 		margin-left: 60px;
 	}
+}

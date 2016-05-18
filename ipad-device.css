@@ -1,0 +1,72 @@
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+
+#projects h1{
+			font-size: 1.5em;
+			font-weight: bold;
+		
+		}
+
+		#projectImage{
+			  width: 350px;
+			  height: 250px;
+			  margin: 0 auto;
+
+}
+		#projectImgWrapper .box{
+			width: 350px;
+			height: 250px;
+		}
+		#projectImgWrapper {
+	  font: 8pt normal Arial, sans-serif;
+	  height: auto;
+	  padding: 12%;
+
+
+
+}
+	#projectImgWrapper br{
+		display: none;
+	}
+		#projectImgWrapper p{
+		font-style: italic;
+		font-size: 1.2em;
+		color: white;
+		font-family: Georgia, Arial, Times;
+	}
+	#projectImgWrapper h3{
+		font-weight: bold;
+		font-family: Georgia, Arial, Times;
+		font-size: 1.2em;
+		padding: 0;
+		margin-top: -5px;
+
+
+	}
+	
+
+	.pHide{
+		display: none;
+	}
+	
+
+	#projectImgWrapper .box .fade-caption {
+   		opacity: 1;
+   		width: 350px;
+		height: 125px;
+		
+		position: absolute;
+		top:130px;
+		
+		border-top-right-radius:13px; 
+
+		} 
+	
+		#projectImgWrapper hr {
+		margin-top: -3px;
+	}
+
+
+}

@@ -23,6 +23,9 @@ and (max-device-width : 1024px)  {
 	  font: 8pt normal Arial, sans-serif;
 	  height: auto;
 	  padding: 12%;
+	  position: relative;
+	  left: 120px;
+	  margin-top: -60px;
 
 
 
@@ -56,10 +59,8 @@ and (max-device-width : 1024px)  {
    		opacity: 1;
    		width: 350px;
 		height: 125px;
-		
 		position: absolute;
 		top:130px;
-		
 		border-top-right-radius:13px; 
 
 		} 

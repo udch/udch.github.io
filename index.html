@@ -46,10 +46,10 @@ elements and media queries -->
 			
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active divider"><a href="#home">Home</a></li>
-					<li class="divider"><a href="#about">About</a></li>
-					<li class="divider"><a href="#projects">Projects</a></li>
-					<li class="divider"><a href="#Skills">Skills</a></li>
+					<li class="active"><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#Skills">Skills</a></li>
 					<li><a href="#contact">Contact</a></li>
 					
 					
@@ -61,7 +61,7 @@ elements and media queries -->
 	</nav>
 
 		<div class="container contentContainer" id="home">
-			<div class="row">
+			<div class="row rowWidth">
 
 				<div class="col-md-12 col-sm-12 col-xs-12 " id="topRow">
 					<h1 class="margintop center">U D C</h1>
@@ -72,11 +72,11 @@ elements and media queries -->
 		</div>
 
 		<div class="container-fluid contentContainer containerWidth" id="about">
-		<div class="row">
+		<div class="row rowWidth">
 			<h2 class="center">ABOUT</h2>
 			
 			<hr class="hrWidth">
-			<div class="col-xs-12 col-sm-12 col-md-4">
+			<div class="col-xs-12 col-sm-12 col-md-4 rowWidth">
 				<img src="Ujjwala.jpg" class="img-rounded" alt="UDC" width="200" height="200" />
 				</br>
 								</br>
@@ -104,7 +104,7 @@ elements and media queries -->
 		
 		<div class="container-fluid contentContainer" id="projects">
 			
-			<div class="row center" id="projectsContainer">			
+			<div class="row center rowWidth" id="projectsContainer">			
 			<h1 class="center">PROJECTS</h1>
 			<hr class="hrWidth">
 			<div class="col-md-6 col-sm-12 col-xs-12">
@@ -200,7 +200,7 @@ elements and media queries -->
 			<h3 class="center">TECHNICAL SKILLS</h3>
 			<br>
 			
-		<div class="row">
+		<div class="row rowWidth">
 			<div class="col-md-6 col-sm-12 col-sx-12">
 				<ul class="list-group listGroupStyle"><strong>FRONT END</strong>
 					<li class="list-group-item listItemStyle">HTML, HTML5</li>
@@ -263,7 +263,7 @@ elements and media queries -->
 	
 
 		<div class="container-fluid containerWidth" id="contact">
-			<div class="row center">
+			<div class="row center rowWidth">
 				<div class="col-sm-8 col-sm-offset-2" id="contactStyling">
 					<h2>CONTACT</h2>
 					<p class="lead">Click the button to fillin the form and I'll get back to you.</p>
@@ -294,7 +294,13 @@ elements and media queries -->
 	
 	$(".contentContainer").css("min-height",$(window).height());
 
-	
+	$(document).on('click', '.navbar-collapse.collapse.in a:not(.dropdown-toggle)', function() {
+    $(this).closest(".navbar-collapse").collapse('hide');
+	});
+	$(document).on('click', '.navbar-collapse.collapse.in button:not(.navbar-toggle)', function() {
+   	 $(this).closest(".navbar-collapse").collapse('hide');
+	});
+
  
  </script>
  </body>

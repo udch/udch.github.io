@@ -14,15 +14,20 @@
 		
 		#about {
 			float: center;
-			width: 100%;
 			background-color: #222;
 			font-family: Georgia, Times, serif;
 	       	font-size: 1em;
 	   		color: white;
 	   		text-align: center;
+
 	   		
 
 	   	}
+	   	.rowWidth.row {
+	   		margin-right: 0;
+	   		margin-left: 0;
+	   	}
+	   	
 	   	#about p {
 	   		display: inline-block;
 	   		padding: 0;
@@ -42,7 +47,7 @@
 		.containerWidth{ 
        
     		max-width: 100%; 
-    		padding: 0;
+    		padding: 0 !important;
 	
 		}
 

@@ -14,17 +14,20 @@ and (max-device-width : 1024px)  {
 			  height: 250px;
 			  margin: 0 auto;
 
+
 }
 		#projectImgWrapper .box{
 			width: 350px;
 			height: 250px;
+
+		}
+		.projectPadding{
+			padding-left: 120px;
 		}
 		#projectImgWrapper {
 	  font: 8pt normal Arial, sans-serif;
 	  height: auto;
 	  padding: 12%;
-	  position: relative;
-	  left: 120px;
 	  margin-top: -60px;
 
 

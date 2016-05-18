@@ -112,6 +112,10 @@
 		background-color: white;
 		color: #222;
 	}
+	#projects h1{
+		font-family: Georgia, Times, serif;
+	    font-size: 30px;
+	}
 	
 	#projectImgWrapper p{
 		font-style: italic;
@@ -235,36 +239,11 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-	/*.emailForm {
+#contact h1{
+	font-family: Georgia, Times, serif;
+	font-size: 30px;
+}
 	
- 	margin-top:20px;
-	}
-	form {
- 	padding-bottom:20px;
-	 	
-	}
-	#contact{
-		padding-top: 100px;
-		padding-bottom: 100px;
-	}
-	.contactBg{
-		background-color: #C8CFB4;
-	}
-	.form-control{
-		border-color: hotpink;
-	
-
-	}
-	.btnColor {
-		background-color: #222222;
-		
-		color: white;
-
-	}
-	.btnColor:hover {
-		color: white;
-		border: 1px solid hotpink;
-	} */
 	.button {
   display: inline-block;
   height: 50px;
@@ -391,8 +370,10 @@ background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25
 background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
-#Skills h3{
+#Skills h1{
 	color: white;
+	font-family: Georgia, Times, serif;
+	font-size: 25px;
 }
 .hrWidth{
 	width: 60%;

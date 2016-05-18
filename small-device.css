@@ -75,12 +75,12 @@
 
 
 }
-#projectImgWrapper br{
-	display: none;
-}
+	#projectImgWrapper br{
+		display: none;
+	}
 		#projectImgWrapper p{
 		font-style: italic;
-		font-size: 0.9em;
+		font-size: 1em;
 		color: white;
 		font-family: Georgia, Arial, Times;
 	}
@@ -88,23 +88,35 @@
 		font-weight: bold;
 		font-family: Georgia, Arial, Times;
 		font-size: 1em;
+		padding: 0;
+		margin-top: -5px;
 
 
 	}
+	#projectImgWrapper hr {
+		display: none;
+	}
 
-
-	#projectImgWrapper .box .fade-caption, #projectImgWrapper .box .scale-caption{
-		width: 200px;
-		height: 150px;
-
-		}
-
-	#projectImgWrapper .box:focus .fade-caption {
-   		opacity: 1;
-
-		} 
 
 	
+
+	#projectImgWrapper .box .fade-caption {
+   		opacity: 0.8;
+   		width: 200px;
+		height: 65px;
+		
+		position: absolute;
+		top:80px;
+		
+		border-top-right-radius:13px; 
+
+		} 
+	.pHide{
+		display: none;
+	}
+
+
+
 	.listGroupStyle {
 		font-size: 1em;
 		width: 200px;

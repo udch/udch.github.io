@@ -1,0 +1,297 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.navbar-fixed-side-left {
+  left: 20px;
+  top: 20px;
+}
+.navbar-fixed-side-right {
+  right: 0;
+}
+.navbar-fixed-side {
+  position: fixed;
+  border-width: 0;
+  z-index: 1030;
+  min-height: 5px;
+  min-width: 5px;
+  max-width: 200px;
+  margin-bottom: 0;
+  border: 0px solid transparent;
+}
+.navbar-fixed-side .navbar-toggle {
+  float: none;
+  margin: 0;
+}
+.navbar-fixed-side .nav > li > a {
+  width: 100%;
+  padding: 20px;
+}
+
+.navbar-fixed-side .navbar-nav {
+  margin: 0;
+}
+.navbar-fixed-side .navbar-nav > li {
+  float: none;
+}
+.navbar-fixed-side .navbar-nav > li > a {
+  padding: 5px;
+  line-height: 20px;
+}
+
+.navbar-fixed-side .container {
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-fixed-side .navbar-collapse {
+  padding: 0 2px;
+  width: 140px;
+
+}
+
+.navbar-fixed-side .container .navbar-collapse {
+  margin: 0;
+}
+.nav-pills {
+background-color:black;
+
+}
+.nav-pills>li>a {
+    border-radius: 0;
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+   font-weight: bold;
+   font-size: 1.2em;
+
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: black;
+    font-size: 1.4em;
+    color: white;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: #333;
+    background-color: black;
+
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #337AB7;
+    font-size: 1.4em;
+    color: white;	
+}
+
+
+.navbar-toggle {
+	border-radius: 0;
+	height: 45px;
+	width:45px;
+	text-align: center;
+}
+
+
+
+/*
+.navbar { 
+	width:12%;
+	height:280px;
+	
+	
+	
+}
+.nav-pills {
+background-color:black;
+
+}
+.nav-pills>li>a {
+    border-radius: 0;
+   
+
+}
+
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.navbar-fixed-right{
+	margin-top:50px;
+	margin-left:50px;
+	width:50px;
+}
+*/
+.center1, .leadCent{
+	text-align:center;
+}
+.center1 {
+	color:#337AB7;
+
+}
+
+
+.containerWidth{ 
+    
+    
+    max-width: 1200px; 
+	padding: 40px 180px;
+	font-size: 1.2em;
+	
+	
+}
+.bgColor{
+	background-color:#F1F1F1;
+}
+
+#profile img {
+	margin-top:20px;
+}
+
+
+
+#experience p {
+	margin:0;
+	padding:0;
+}
+
+
+#projects img{
+	width:300px;
+	height:200px;
+	
+}
+figure { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+#contact{
+	height:600px;
+}
+
+.cover  	
+	{ 
+		background-image:url("portfolio.jpg"); 
+		height:50px;
+		width:100%; 
+		background-size:cover;
+		background-position:center;
+		color:#fff;
+		font-family:Verdana, Geneva, sans-serif;
+		
+    position: relative;
+    z-index: 1031;
+		
+	}
+
+	
+.clearfix:after{
+	clear:both;
+}
+	
+#topRow {
+	margin-top:200px;
+}
+
+#topRow h1{
+		font-size:3em;
+		font-weight:normal;
+		border-bottom: 1px solid #fff;
+		padding-bottom:10px;
+		
+		}
+#topRow p{
+		font-size:2em;
+		
+		}
+		
+.cover .glyphicon  {
+	padding-top:20px;
+}
+
+#downArrow {
+	position: relative;
+	top:220px;	
+    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+}
+@-webkit-keyframes bounce {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+	80% { -webkit-transform: translateY(-10px); }
+}
+
+@-moz-keyframes bounce {
+	0%, 20%, 60%, 100%  { -moz-transform: translateY(0); }
+    40%  { -moz-transform: translateY(-20px); }
+	80% { -moz-transform: translateY(-10px); }
+}
+@-o-keyframes bounce {
+	0%, 20%, 60%, 100%  { -o-transform: translateY(0); }
+    40%  { -o-transform: translateY(-20px); }
+	80% { -0-transform: translateY(-10px); }
+}
+.btn, .btn:hover, .btn:focus, .btn:active {
+	width:120px;
+	height:70px;
+	color:red;
+	border:none;
+	background-position:0 0;
+	background-color:transparent;
+	outline: 0 !important;
+
+	
+}
+#profile img {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.list-group-item {
+	border:none;
+	background-color: transparent;
+	
+
+}
+.list-group-item:hover, .list-group-item:focus {
+	background-color: white;
+}
+.list-group {
+	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+    border-radius: 0;
+}
+/*ul li span { 
+    
+    font-size: 20px;
+    color: green;
+    border:none;
+}
+*/
+.rating-green {
+	color: #337ab7;
+}
+.rating-gray {
+	color: gray;
+}
+.glyphicon-star {
+	width: 13px;
+
+}
+.glyphicon-star:hover, .glyphicon-star:focus {
+	
+	width: 16px;
+}
+
+.glyphicon-thumbs-up {
+	color: #337AB7;
+}

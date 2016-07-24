@@ -28,15 +28,16 @@
 	}
 */
 	#home{
-		background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdT4Mkl7Mu0IawJ8u9MeSt6GOCXYkFydFyjJyQdNP8kJN1PQf7");
+		background-image:url("line_shadow_dark_texture_50416_1920x1080.jpg");
 		height:400px;
 		width:100%;
 		background-size:cover;
-		font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
-	  	color: hotpink;
+		font: 600 50px/0.8 'Great Vibes', Helvetica, sans-serif;
+	  	color: white;
 	  	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
-	  	font-weight: 800px;
+	  	
 	  	letter-spacing: 4.5px;
+	  	background-image: blur(5px);
 		
 
 	}
@@ -123,7 +124,7 @@
 		color: white;
 		font-family: Georgia, Arial, Times;
 	}
-	#projectImgWrapper h3{
+	#projectImgWrapper h4{
 		font-weight: bold;
 		font-family: Georgia, Arial, Times;
 
@@ -136,19 +137,19 @@
 	  height: auto;
 	  margin: 10px auto 10px auto;
 	  text-align: center;
-	  padding-left: 25%;
+	  padding-left: 10%;
 
 }
 	#projectImgWrapper .box {
     border: 3px solid #fff;
     border-radius: 10px;
     cursor: pointer;
-    height: 250px;
+    height: 225px;
     float: left;
     margin: 5px;
     position: relative;
     overflow: hidden;
-    width: 350px;
+    width: 325px;
     -webkit-box-shadow: 1px 1px 1px 1px #ccc;
     -moz-box-shadow: 1px 1px 1px 1px #ccc;
     box-shadow: 1px 1px 1px 1px #ccc;
@@ -179,8 +180,8 @@
 }
 #projectImgWrapper .box .fade-caption, #projectImgWrapper .box .scale-caption {
     opacity: 0;
-    width: 350px;
-    height: 250px;
+    width: 325px;
+    height: 225px;
     text-align: left;
     padding: 15px;
 }
@@ -190,8 +191,8 @@
 } 
 
 #projectImage{
-  width: 350px;
-  height: 250px;
+  width: 325px;
+  height: 225px;
   margin: 0 auto;
 }
 
@@ -358,7 +359,7 @@ background: #ECE9E6; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         color: Gray;
-	text-align: left;
+	text-align: center;
 	font-size: 0.7em;
 	line-height: 2px;
 }

@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+ <head>
+	<title>JS PROJECT</title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<style>
+		body{
+			
+			
+
+background: #F0C27B; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F0C27B , #4B1248); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F0C27B , #4B1248); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+			
+			
+		}
+		#box{
+			width:150px;
+			height:150px;
+			background-color:red;
+			display:none;
+			border:1px solid gray;
+			position:relative;
+			
+		
+		}
+		#container{
+			width:900px;
+			margin:0 auto;
+			height:480px;
+			border:2px groove purple;
+			background-image:url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRdBhBz7mU6Ikt81VP92xfGEcKoo7NgcE--c4z6k6xvnEM4a89I5w");
+			background-repeat:no-repeat;
+			background-size:1100px 480px;
+		}
+		#fixedwidth{
+			width:800px;
+			height:25px;
+			margin:0 auto;
+			background-color:pink;
+			
+			
+			}
+			
+		#list ul {
+			float:left;
+			
+		
+		}
+ 	 	
+		#list li {
+			float:left;
+			list-style:none;			
+			font-size:15px;
+			font-weight:bold;
+			padding-left:100px;
+			position:relative;
+			top:-10px;
+			
+			
+			
+		}
+
+		
+	</style>
+ </head>
+
+ <body>
+	
+		<h1 align="center">Test your reactions!</h1>
+		<p align="center">Click on the objects as quickly as you can!</p>
+		<div id="fixedwidth">
+		<ul id="list">
+			<li><p>Your Time: <span id="time">0</span>s</p></li>
+			<li><p>No. of clicks:  <span id="countClicks">0</span></p></li>
+			<li><p>least time:  <span id="lowest">0</span>s</p></li>
+		</ul>
+		
+		</div> <br>
+		<div id="container">
+		<div id="box"></div>
+		
+	
+		<script type="text/javascript">
+			function getRandomColor(){
+				var letters='0123456789ABCDEF'.split('');
+				var color='#';
+				for(var i=0; i<6; i++){
+					color+=letters[Math.round(Math.random()*15)];
+				}
+				return color;
+			}
+			
+			var createdTime; var clickedTime; var reactionTime; var countClicks=0; var lowestTime = 0;
+			function makeBox(){
+				
+				var time=Math.random();
+				
+				time=time*2000;
+				
+				setTimeout(function() {
+					if(Math.random()>0.5){
+						document.getElementById("box").style.borderRadius="75px";
+					} else{
+						document.getElementById("box").style.borderRadius="0";
+					}
+					
+					var top=Math.random();
+					top=top*300;
+					var left=Math.random();
+					left=left*700;
+					
+					document.getElementById("box").style.top=top+"px";
+					document.getElementById("box").style.left=left+"px";
+					
+					document.getElementById("box").style.backgroundColor=getRandomColor();
+					
+					document.getElementById("box").style.display="block";
+					createdTime=Date.now();
+					}, time);
+			}
+			
+			document.getElementById("box").onclick=function(){
+				
+				countClicks=countClicks+1;
+				document.getElementById("countClicks").innerHTML=countClicks;
+				
+				clickedTime=Date.now();
+				
+				reactionTime=(clickedTime-createdTime)/1000;
+				
+				document.getElementById("time").innerHTML=reactionTime;
+				
+				if(countClicks==1)
+				{
+				    lowestTime = reactionTime;
+				}
+				else{				
+					if(reactionTime<lowestTime)
+					{
+						lowestTime = reactionTime;		
+					}
+				}
+				
+				document.getElementById("lowest").innerHTML=lowestTime;
+				this.style.display="none";
+				
+				makeBox();
+				
+				
+				
+			}
+			
+			makeBox();
+		
+		
+		</script>
+	</div>	
+ </body>
+ </html>

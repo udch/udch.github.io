@@ -1,0 +1,417 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"m",
+				"makeBox"
+			],
+			[
+				"ma",
+				"makeBox"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"ba",
+				"ballBubble"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"wid",
+				"column-width"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"Gr",
+				"gray"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"si",
+				"font-size"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"Stro",
+				"strong"
+			],
+			[
+				"le",
+				"lead"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"background-",
+				"background-size"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"onC",
+				"onclick	Attr"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"boo",
+				"bottom"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/udc/Documents/projects/ujjwaladevi.github.io/JS PROJECT.png",
+		"/home/udc/Documents/projects/ujjwaladevi.github.io/codePlayer.html",
+		"/home/udc/Documents/projects/ujjwaladevi.github.io/JSGame.html",
+		"/home/udc/Documents/projects/ujjwaladevi.github.io/portfolioTemplate.html",
+		"/home/udc/Documents/projects/ujjwaladevi.github.io/portfolioTemplate.css",
+		"/home/udc/Documents/projects/JS/smoke.html",
+		"/home/udc/Documents/projects/ujjwaladevi.github.io/index.css",
+		"/home/udc/Documents/projects/ujjwaladevi.github.io/index.html",
+		"/home/udc/Documents/projects/waterbubblecss.html",
+		"/home/udc/Documents/projects/JS/jsgame.html",
+		"/media/udc/58F27159F2713C76/Documents and Settings/dell/Desktop/MyWebsites/Bootstrap/startup.html",
+		"/home/udc/Documents/projects/my-cook-book/.htaccess",
+		"/home/udc/Documents/projects/my-cook-book/wp-config.php",
+		"/home/udc/Documents/projects/secret-diary/mainpage.php",
+		"/home/udc/Documents/projects/secret-diary/connection.php",
+		"/home/udc/Documents/projects/secret-diary/bootstapProject.html",
+		"/home/udc/Documents/projects/weather-forecaster/Procfile",
+		"/home/udc/Documents/projects/ujjwaladevi.github.io/small-device.css",
+		"/home/udc/Documents/projects/ujjwaladevi.github.io/ipad-device.css",
+		"/home/udc/Documents/projects/myGitWebsite/css3fade.html",
+		"/home/udc/Documents/projects/myGitWebsite/jqueryfadein.html",
+		"/home/udc/Documents/projects/myGitWebsite/index.css",
+		"/home/udc/Documents/projects/myGitWebsite/php.ini",
+		"/home/udc/Documents/projects/myGitWebsite/ContactForm.php",
+		"/home/udc/Documents/projects/portfolio/portfolioIndex.css",
+		"/home/udc/Documents/projects/myGitWebsite/myGame.js",
+		"/home/udc/Documents/projects/myGitWebsite/index.html",
+		"/home/udc/Documents/projects/myGitWebsite/weatherForcast.png",
+		"/media/udc/58F27159F2713C76/Documents and Settings/dell/Desktop/MyWebsites/Bootstrap/appLanding.html",
+		"/home/udc/Documents/projects/myGitWebsite/cf.php",
+		"/home/udc/Documents/projects/myGitWebsite/cfp.php",
+		"/home/udc/Documents/projects/myGitWebsite/contactForm.php",
+		"/home/udc/Documents/projects/myGitWebsite/index.php",
+		"/home/udc/Documents/projects/portfolio/portfolioIndex.html",
+		"/home/udc/Documents/projects/JS/onclick.html",
+		"/home/udc/Desktop/sidebar.css",
+		"/home/udc/Desktop/sidebar.html",
+		"/tmp/git-test/index.html",
+		"/tmp/git-test/file.txt"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	.",
+			"hover",
+			"  ",
+			" </",
+			"BOLD",
+			"container",
+			"fixedWidth",
+			"list",
+			";	",
+			"form",
+			"</li>",
+			"bg",
+			"https:",
+			"div"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "codePlayer.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -2,7 +2,28 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 
 
+#about img{
+		
+	width: 150px;
+	height: 150px;
+	}
+#about {
+		
+	    font-size: 15px;
+	    color: white;
 
+	}
+blockquote {
+
+		font-family: Georgia, Times, serif;
+	    font-style: italic;
+	    font-size: 15px;
+	    color: white;
+	    border:none;
+	}
+#projects{
+		margin-left: -25px;
+	}
 #projects h1{
 			font-size: 1.5em;
 			font-weight: bold;
@@ -10,25 +31,24 @@ and (max-device-width : 1024px)  {
 		}
 
 		#projectImage{
-			  width: 350px;
-			  height: 250px;
+			  width: 300px;
+			  height: 200px;
 			  margin: 0 auto;
+
 
 
 }
 		#projectImgWrapper .box{
-			width: 350px;
-			height: 250px;
+			width: 300px;
+			height: 200px;
 
 		}
-		.projectPadding{
-			padding-left: 120px;
-		}
+		
 		#projectImgWrapper {
 	  font: 8pt normal Arial, sans-serif;
 	  height: auto;
 	  padding: 12%;
-	  margin-top: -60px;
+	  margin-top: -30px;
 
 
 
@@ -38,11 +58,13 @@ and (max-device-width : 1024px)  {
 	}
 		#projectImgWrapper p{
 		font-style: italic;
-		font-size: 1.2em;
+		font-size: 1em;
 		color: white;
 		font-family: Georgia, Arial, Times;
+		margin-top: -7px;
+
 	}
-	#projectImgWrapper h3{
+	#projectImgWrapper h4{
 		font-weight: bold;
 		font-family: Georgia, Arial, Times;
 		font-size: 1.2em;
@@ -73,4 +95,7 @@ and (max-device-width : 1024px)  {
 	}
 
 
+#Skills ul, #Skills li {
+	
+	font-size: 15px;
 }

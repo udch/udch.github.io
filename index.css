@@ -77,9 +77,11 @@
 	box-shadow: 10px 10px 5px #888888;
 	}
 	#about {
-		background-color: #222;
+		
 		font-family: Georgia, Times, serif;
-	    
+	    background-image: url("black-and-pink-wallpaper.jpg");
+	    background-repeat: no-repeat;
+	    background-size: cover;
 	    font-size: 20px;
 	    color: white;
 
@@ -107,6 +109,7 @@
 
 	#projectsContainer{
 		height:100vh;
+		
 		
 	}
 	#projects{
@@ -239,10 +242,14 @@
 #contact{
 	margin-top: 30px;
 	margin-bottom: 30px;
+	background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpj1vOQbIBxfZk9ttxSyd52GqZi7Ca_X3D6BfXHxsansFmeYF62g");
+	background-repeat: repeat;
+	background-size:50px 50px;
+
 }
 #contact h1{
 	font-family: Georgia, Times, serif;
-	font-size: 30px;
+
 }
 	
 	.button {

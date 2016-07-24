@@ -19,6 +19,7 @@
 	       	font-size: 1em;
 	   		color: white;
 	   		text-align: center;
+	   		background-image: none;
 
 	   		
 
@@ -84,7 +85,7 @@
 		color: white;
 		font-family: Georgia, Arial, Times;
 	}
-	#projectImgWrapper h3{
+	#projectImgWrapper h4{
 		font-weight: bold;
 		font-family: Georgia, Arial, Times;
 		font-size: 1em;

@@ -79,9 +79,7 @@
 	#about {
 		
 		font-family: Georgia, Times, serif;
-	    background-image: url("black-and-pink-wallpaper.jpg");
-	    background-repeat: no-repeat;
-	    background-size: cover;
+	    background-color: #000;
 	    font-size: 20px;
 	    color: white;
 

@@ -22,7 +22,7 @@ blockquote {
 	    border:none;
 	}
 #projects{
-		margin-left: -25px;
+		margin-left: -35px;
 	}
 #projects h1{
 			font-size: 1.5em;
@@ -39,7 +39,7 @@ blockquote {
 
 }
 		#projectImgWrapper .box{
-			width: 300px;
+			width: 270px;
 			height: 200px;
 
 		}
@@ -82,7 +82,7 @@ blockquote {
 
 	#projectImgWrapper .box .fade-caption {
    		opacity: 1;
-   		width: 350px;
+   		width: 270px;
 		height: 125px;
 		position: absolute;
 		top:130px;

@@ -2,6 +2,12 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 
 
+#home {
+			background-image:none;
+			background: #c2e59c; /* fallback for old browsers */
+			background: -webkit-linear-gradient(to left, #c2e59c , #64b3f4); /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to left, #c2e59c , #64b3f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		}
 #about img{
 		
 	width: 150px;
@@ -95,7 +101,10 @@ blockquote {
 	}
 
 
-#Skills ul, #Skills li {
+#Skills li {
 	
+	font-size: 12px;
+}
+#Skills h2{
 	font-size: 15px;
 }

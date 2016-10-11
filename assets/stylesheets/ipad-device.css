@@ -30,7 +30,7 @@ blockquote {
 		
 		}
 
-		#projectImage{
+		.projectImage{
 			  width: 300px;
 			  height: 200px;
 			  margin: 0 auto;
@@ -38,13 +38,13 @@ blockquote {
 
 
 }
-		#projectImgWrapper .box{
+		.projectImgWrapper .box{
 			width: 270px;
 			height: 200px;
 
 		}
 		
-		#projectImgWrapper {
+		.projectImgWrapper {
 	  font: 8pt normal Arial, sans-serif;
 	  height: auto;
 	  padding: 12%;
@@ -53,10 +53,10 @@ blockquote {
 
 
 }
-	#projectImgWrapper br{
+	.projectImgWrapper br{
 		display: none;
 	}
-		#projectImgWrapper p{
+		.projectImgWrapper p{
 		font-style: italic;
 		font-size: 1em;
 		color: white;
@@ -64,7 +64,7 @@ blockquote {
 		margin-top: -7px;
 
 	}
-	#projectImgWrapper h4{
+	.projectImgWrapper h4{
 		font-weight: bold;
 		font-family: Georgia, Arial, Times;
 		font-size: 1.2em;
@@ -80,7 +80,7 @@ blockquote {
 	}
 	
 
-	#projectImgWrapper .box .fade-caption {
+	.projectImgWrapper .box .fade-caption {
    		opacity: 1;
    		width: 270px;
 		height: 125px;
@@ -90,7 +90,7 @@ blockquote {
 
 		} 
 	
-		#projectImgWrapper hr {
+		.projectImgWrapper hr {
 		margin-top: -3px;
 	}
 

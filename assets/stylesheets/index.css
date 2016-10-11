@@ -31,6 +31,7 @@
 		background-image:url("../images/flowerBG.jpg");
 		height:400px;
 		width:100%;
+		background-attachment: fixed;
 		background-size:cover;
 		font: 600 50px/0.8 'Great Vibes', Helvetica, sans-serif;
 	  	color: white;
@@ -75,6 +76,7 @@
 		
 	margin-top:20px;
 	box-shadow: 10px 10px 5px #888888;
+	
 	}
 	#about {
 		
@@ -119,13 +121,13 @@
 	    font-size: 30px;
 	}
 	
-	#projectImgWrapper p{
+	.projectImgWrapper p{
 		font-style: italic;
 		font-size: 1.2em;
 		color: white;
 		font-family: Georgia, Arial, Times;
 	}
-	#projectImgWrapper h4{
+	.projectImgWrapper h4{
 		font-weight: bold;
 		font-family: Georgia, Arial, Times;
 
@@ -133,7 +135,7 @@
 	}
 
 
-	#projectImgWrapper {
+	.projectImgWrapper {
 	  font: 10pt normal Arial, sans-serif;
 	  height: auto;
 	  margin: 10px auto 10px auto;
@@ -141,7 +143,7 @@
 	  padding-left: 10%;
 
 }
-	#projectImgWrapper .box {
+	.projectImgWrapper .box {
     border: 3px solid #fff;
     border-radius: 10px;
     cursor: pointer;
@@ -156,7 +158,7 @@
     box-shadow: 1px 1px 1px 1px #ccc;
 }
  
-#projectImgWrapper .box img {
+.projectImgWrapper .box img {
     position: absolute;
     left: 0;
     -webkit-transition: all 300ms ease-out;
@@ -166,7 +168,7 @@
     transition: all 300ms ease-out;
 }
 
-#projectImgWrapper .box .caption {
+.projectImgWrapper .box .caption {
     background-color: rgba(255,105,180,0.7);
     position: absolute;
     color: #fff;
@@ -179,19 +181,19 @@
     left: 0;
     border-radius: 10px;
 }
-#projectImgWrapper .box .fade-caption, #projectImgWrapper .box .scale-caption {
+.projectImgWrapper .box .fade-caption, .projectImgWrapper .box .scale-caption {
     opacity: 0;
     width: 325px;
     height: 225px;
     text-align: left;
     padding: 15px;
 }
-#projectImgWrapper .box:hover .fade-caption {
+.projectImgWrapper .box:hover .fade-caption {
     opacity: 1;
 
 } 
 
-#projectImage{
+.projectImage{
   width: 325px;
   height: 225px;
   margin: 0 auto;
@@ -340,34 +342,36 @@ ul li span {
 }
 */
 
-.listGroupStyle {
+.listGroupHeading {
 	border:none;
-	
-
-background: #FBD3E9; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #FBD3E9 , #BB377D); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #FBD3E9 , #BB377D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+	background: #FBD3E9; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FBD3E9 , #BB377D); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FBD3E9 , #BB377D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
 	font-size: 1.3em;
-	text-align: center;
-	
+	text-align: center;	
+	margin-bottom: -2px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 .listItemStyle {
 	border:none;
-	
-
-
-
-background: #ECE9E6; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        color: Gray;
+	background: #ECE9E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: Gray;
 	text-align: center;
-	font-size: 0.7em;
 	line-height: 2px;
 }
+
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
 #Skills {
 
 

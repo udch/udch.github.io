@@ -58,18 +58,18 @@
 		
 		}
 
-		#projectImage{
+		.projectImage{
 			  width: 200px;
 			  height: 150px;
 			  margin: 0 auto;
 
 }
-		#projectImgWrapper .box{
+		.projectImgWrapper .box{
 			width: 200px;
 			height: 150px;
 			
 		}
-		#projectImgWrapper {
+		.projectImgWrapper {
 	  font: 8pt normal Arial, sans-serif;
 	  height: auto;
 	  padding: 12%;
@@ -77,16 +77,16 @@
 
 
 }
-	#projectImgWrapper br{
+	.projectImgWrapper br{
 		display: none;
 	}
-		#projectImgWrapper p{
+		.projectImgWrapper p{
 		font-style: italic;
 		font-size: 1em;
 		color: white;
 		font-family: Georgia, Arial, Times;
 	}
-	#projectImgWrapper h4{
+	.projectImgWrapper h4{
 		font-weight: bold;
 		font-family: Georgia, Arial, Times;
 		font-size: 1em;
@@ -95,14 +95,14 @@
 
 
 	}
-	#projectImgWrapper hr {
+	.projectImgWrapper hr {
 		display: none;
 	}
 
 
 	
 
-	#projectImgWrapper .box .fade-caption {
+	.projectImgWrapper .box .fade-caption {
    		opacity: 1;
    		width: 200px;
 		height: 65px;

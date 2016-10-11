@@ -28,7 +28,7 @@
 	}
 */
 	#home{
-		background-image:url("flowerBG.jpg");
+		background-image:url("../images/flowerBG.jpg");
 		height:400px;
 		width:100%;
 		background-size:cover;

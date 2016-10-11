@@ -179,7 +179,7 @@ figure {
 
 .cover  	
 	{ 
-		background-image:url("portfolio.jpg"); 
+		background-image:url("../images/portfolio.jpg"); 
 		height:50px;
 		width:100%; 
 		background-size:cover;

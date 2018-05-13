@@ -1,0 +1,201 @@
+body, img, embed, video {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.udc-logo {
+    width: 38%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.hero-image, .main-content {
+    padding: 20px 0;
+}
+
+.main-header {
+    border-bottom: 2px solid #000;
+    padding: 15px 8px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: white;
+    z-index: 1000;
+}
+
+.main-header h1 {
+    display: none;
+}
+
+.main-header h1:last-child {
+    font-weight: normal;
+    float: right;
+}
+
+.main-header .lead-role {
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+
+.hero-image .hero-background {
+    /*background-image: url('https://images.unsplash.com/photo-1520824425404-75f4f1704203?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0148ab1a2f63b7f9dcb7c2ee0a9200cd&auto=format&fit=crop&w=2850&q=80');*/
+    background-image: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a20bc6324f6ef2969d9a7cae56b8d4d1&auto=format&fit=crop&w=2700&q=80');
+    height: 30vh;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-content h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.sample-works {
+    height: 250px;
+    border: 3px solid #fff;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.featured-works-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-wrapper {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrapper .fade-caption {
+    background-color: rgba(255,105,180,0.7);
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: opacity 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out;
+    -o-transition: opacity 300ms ease-out;
+    -ms-transition: opacity 300ms ease-out;
+    transition: opacity 300ms ease-out;
+    padding: 20px;
+    margin: 20px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    border-top-left-radius: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-wrapper-box .caption {
+    height: 70px;
+}
+
+.img-wrapper-box .fade-caption p {
+    display: none;
+}
+
+.img-wrapper-box .fade-caption h4 {
+    text-align: center;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-container .heart-icon {
+    color: hotpink;
+}
+
+/* Tablets styles */
+@media screen and (min-width: 768px) {
+    .udc-logo {
+        width: 20%;
+        display: inline-block;
+        padding: 14px 0;
+    }
+
+    .main-header {
+        padding: 0 25px;
+    }
+
+    .main-header h1 {
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    .img-wrapper {
+        width: 50%;
+        margin: auto;
+    }
+
+    .hero-image .hero-background {
+        height: 70vh;
+    }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1200px) {
+    body {
+        margin: 0px 120px;
+    }
+
+    .udc-logo {
+        width: 12%;
+        padding: 0;
+    }
+
+    .main-header {
+        padding: 40px 0 0;
+        margin: 0 120px;
+    }
+
+    .img-wrapper {
+        width: 30%;
+    }
+
+    .main-content h2 {
+        text-align: left;
+    }
+
+    .img-wrapper-box .fade-caption {
+        opacity: 0;
+        height: auto;
+        border-radius: 0;
+        top: 0;
+    }
+
+    .img-wrapper-box .fade-caption h4 {
+        text-align: left;
+    }
+
+    .img-wrapper-box:hover .fade-caption {
+        opacity: 1;
+    }
+
+    .img-wrapper .fade-caption p {
+        display: block;
+    }
+
+    .img-wrapper .fade-caption hr {
+        border: 1px solid white;
+    }
+}
